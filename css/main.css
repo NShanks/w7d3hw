@@ -1,0 +1,26 @@
+* {
+    color: white;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    display: flex;
+}
+
+#yrszn {
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+}
+#yrszn input[type=text]{
+    background-color: solid black;
+}
+
+.table {
+    border: solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
